@@ -1,38 +1,42 @@
-# sv
+# QuadCode Test Project
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Тестовое задание: SvelteKit приложение с определением геолокации по IP и скрытием кнопки для пользователей из США.
 
-## Creating a project
+## Демо
 
-If you're seeing this, you've probably already done this step. Congrats!
+**Ссылка на развернутое приложение:** https://quadcode-test.vercel.app/
 
-```sh
-# create a new project in the current directory
-npx sv create
+## Локальная установка
 
-# create a new project in my-app
-npx sv create my-app
+**Установите Node.js и npm:**
+- Скачайте с официального сайта: https://nodejs.org/
+- Выберите LTS версию
+- npm устанавливается автоматически вместе с Node.js
+
+### Установка и запуск
+
+1. **Клонируйте репозиторий:**
+```bash
+git clone https://github.com/ikota2/quadcode-test.git
 ```
 
-## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+2. **Перейдите в папку проекта:**
+```bash
+cd quadcode-test
+```
 
-```sh
+3. **Установите зависимости:**
+```bash
+npm install
+```
+
+4. **Запустите проект в режиме разработки:**
+```bash
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
+5. **Откройте в браузере:**
 ```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+http://localhost:5173
+```
