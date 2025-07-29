@@ -3,5 +3,11 @@
 </script>
 
 <main>
-    <slot />
+	<slot />
 </main>
+
+<style>
+	main {
+		padding: 25px 10px;
+	}
+</style>

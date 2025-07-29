@@ -4,10 +4,11 @@
 	--color-gray: #afadac;
 	--color-orange: #ea580c;
 	--color-bg-black: #1b1817;
-	--color-bg-gradient-orange: linear-gradient(90deg,
-	rgba(254, 141, 32, 0.85) 0%,
-	rgba(255, 114, 13, 1) 50%,
-	rgba(255, 94, 4, 1) 100%
+	--color-bg-gradient-orange: linear-gradient(
+		90deg,
+		rgba(254, 141, 32, 0.85) 0%,
+		rgba(255, 114, 13, 1) 50%,
+		rgba(255, 94, 4, 1) 100%
 	);
 }
 
@@ -22,5 +23,5 @@
 html {
 	font-family: sans-serif;
 	color: var(--color-white);
-	background-color: var(--color-black);
+	background-color: var(--color-bg-black);
 }
