@@ -1,13 +1,13 @@
 <script>
-	import '../app.css';
+  import '../app.css';
 </script>
 
-<main>
-	<slot />
-</main>
+<div class="app-container">
+  <slot />
+</div>
 
 <style>
-	main {
-		padding: 25px 10px;
-	}
+  .app-container {
+    padding: 32px 16px;
+  }
 </style>
